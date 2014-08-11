@@ -1,0 +1,427 @@
+body {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight:300;
+    color: #331a80;
+}
+p {
+	line-height: 1.5em;
+    padding: .5em 18em;
+    text-align: left;
+	font-family: 'Open Sans', sans-serif;
+}
+h1
+{
+	margin: 0;
+    font-weight: 600; 
+}
+h2 {
+	display: block;
+	line-height: 1em;
+    font-weight: 600; 
+
+}
+
+
+.navigation
+{
+	background-color: #ebebf5;
+	padding: 1% 1%;
+	margin: 0;
+    
+    border-style:solid;
+    border-width:1px;
+    border-color: #736e82;
+
+    box-shadow: .25px .25px .25px #736e82;
+    
+}
+.navigation ul {    box-shadow: .25px .25px .25px #736e82;
+}
+.navigation li {
+	display: inline;
+	list-style: none;
+	margin-right: 2.5em;
+}
+.navigation li a {
+	text-decoration: none;
+	color: #331a80;
+	opacity: 0.9;
+}
+.navigation li a:hover {
+	color:#bebec8;
+	opacity: 1;
+}
+.landing_page {
+    
+    border-style:solid;
+    border-width:1px;
+    border-color: #736e82;
+
+}
+.landing_page h1 {
+	padding: 12.5% 20%;
+	text-shadow: 0 1px 1px #331a80;
+	font-size: 2.25em;
+	font-weight: 500;
+	color: #370faf;
+	background-color: #ebebf5
+    
+    box-shadow: .25px .25px .25px #736e82;
+
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+    box-shadow: .25px .25px .25px #736e82;
+
+}
+
+.possible_content {
+    list-style: none;
+	color: #331a80;
+    font-style: italic;
+
+}
+.possible_content li {
+	text-align: left;
+}
+.withBullets {
+    list-style: circle;
+}
+
+
+.data {
+    padding: 5% 10% 5% 10%;
+	margin-bottom: 28px;
+    font-style: italic;
+    
+    border-style:solid;
+    border-width:1px;
+    border-color: #736e82;
+}
+	
+.content {
+	padding: 5% 10% 5% 10%;
+    background-color: #ebebf5;
+
+    border-style:solid;
+    border-width:1px;
+    border-color: #736e82;
+
+}
+
+.civics {
+	padding: 18% 5% 18% 5%;
+	background-color: #ebebf5;
+    color: #331a80;
+    font-size: .85em;
+    font-style: italic;
+    
+    border-style:solid;
+    border-width:1px;
+    border-color: #736e82;
+}
+.civics h1 {
+	margin-bottom: 30px;
+    font-style: normal
+
+}
+.find_me {
+	padding: 5% 10% 5% 10%;
+	background-color: #331a80;
+    
+    border-style:solid;
+    border-width:1px;
+    border-color: #736e82;
+
+}
+.find_me h2 {
+    color:#ebebf5;
+}
+.content h2, .civics h2, .find_me h2, .data h2 {
+	margin-bottom: 1.5em;
+    font-style: normal;
+
+}
+
+/* http://css-tricks.com/hash-tag-links-padding/ */
+.content:before, .civics h2:before, .find_me:before h2:before, .data:before { 
+  margin-top: -285px; 
+  height: 285px; 
+  display: block; 
+}
+a.button_find_me {
+	background-color: #bebec8;
+	color: black;
+	display: block;
+	width: 35%;
+	margin: auto;
+	padding: 25% 5% 18% 1%;
+	margin-top: 32px;
+	font-weight: 500;	
+}
+.find_me p a {
+	text-decoration: underline;
+	opacity: 0.9;
+}
+.find_me p a:hover {
+	color: #ebb405;
+	opacity: 1;
+}
+a.button_return_to_top {
+	background-color:rgba(242,240,240,.25);
+	display: block;
+	width: 15%;
+	margin: auto;
+	padding: 12px 1%;
+    
+	margin-top: 32px;
+	text-decoration: none;
+	font-weight: 75%;
+    
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    
+    box-shadow: 1px 1px .5px #736e82;
+}
+.find_me a {
+	text-decoration: none;
+    color: #331a80;
+}
+.civics a {
+	text-decoration: none;
+	color: #370faf
+}
+.civics h1 {
+	font-size: 32px;
+}
+.civics h3, .civics h4 {
+	text-align: left;
+}
+.civics p {
+	line-height: 1.5em;
+}
+.civics img {
+    margin: -80px;
+}
+.civics ol li {
+	text-align: left;
+	margin-bottom: 10px;
+}
+.civics ul li {
+	text-align: left;
+}
+#civics_section.civics {
+	padding: 5% 10% 5% 10%;
+}
+#data_section.civics {
+	padding: 5% 10% 5% 10%;
+}
+
+.content a {
+	text-decoration: none;
+	color: black;
+}
+.content p a {
+	text-decoration: underline;
+}
+.content a:hover {
+	color: #370faf;
+}
+a.button_return_to_top {
+	color: black;
+}
+.find_me p a:hover {
+	color: #bebec8
+}
+.civics a:hover, .content a:hover, .find_me a.button_return_to_top:hover {
+	color: #ebb405 ;
+}
+.content p {
+	text-align: left;
+}
+
+.navigation li span {
+	color: #bebec8;
+	opacity: 0.6;
+}
+
+.browser-logo {
+
+    height:64px;
+    width: 64px:
+}
+
+/* social sprite
+   See more at: http://www.artofblog.com/social-icons-with-a-css-sprite/#sthash.yf4ADH6G.dpuf
+*/
+
+.social {
+    text-align: justify;
+    padding: 1em 23em;
+}
+
+ul.socialicons { 
+    list-style: none;
+    text-align: center;
+    padding: 0% 5% 5% 5%;
+    overflow: auto;
+}
+ul.socialicons li { 
+    padding: 2%;
+    width: 70px;
+    height: 70px;
+    float:left
+}
+ul.socialicons li a { 
+    width: 70px;
+    height: 70px;
+    display: block;
+    background: url("../images/socialSprite.png") no-repeat
+}
+ul.socialicons li a.linkedin { 
+    background-position: 0px 0px
+}ul.socialicons li a.linkedin:hover { 
+    background-position: -68px 0px
+}
+ul.socialicons li a.twitter { 
+    background-position: 0 -70px
+}ul.socialicons li a.twitter:hover { 
+    background-position: -68px -70px
+}
+ul.socialicons li a.github { 
+    background-position: 0 -135px
+}ul.socialicons li a.github:hover { 
+    background-position: -68px -135px
+}
+ul.socialicons li a.codepen { 
+    background-position: 0 -205px
+}ul.socialicons li a.codepen:hover { 
+    background-position: -68px -205px
+}
+ul.socialicons li a.work { 
+    background-position: 0 -275px
+}ul.socialicons li a.work:hover { 
+    background-position: -70px -275px
+}
+ul.socialicons li a.blog { 
+    background-position: 0 -350px
+}ul.socialicons li a.blog:hover { 
+    background-position: -70px -350px
+}
+
+
+.projectSocial {
+    
+    padding: 2%
+
+    vertical-align: middle;
+    text-align: center;
+    height: 10px;
+    max-height: 50px;
+	background-color: #331a80 ;
+    color: #331a80;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 7px;
+    -moz-border-radius-bottomleft: 7px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.socialImg {
+    max-width: 32px;
+    max-height: 32px;
+    padding: 2%
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 851px) {
+    p, .social {
+        padding: .5em 10em;
+    }
+}
+    
+}
+@media screen and (max-width: 850px) and (min-width: 701px) {
+    p, .social {
+        padding: .5em 3em;
+    }
+}
+@media screen and (max-width: 700px) {
+    body {
+		font-size: 16px;
+		line-height: 20px;
+	}
+    p, .social {
+        padding: .5em 1em;
+    }
+
+	.landing_page h1 {
+		font-size: 1.5em;
+		padding: 18% 15%;
+	}
+	h1 {
+		line-height: 26px;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	.civics, .content, .find_me, .data {
+        text-align: center;
+
+	   padding: 5% 10% 5% 10%;
+		width: inherit;
+	}
+
+	a.button_find_me, a.button_return_to_top {
+		width: 90%;
+	}
+
+	.content h2, .civics h2, .find_me h2 {
+		margin-top: 8px;
+	}	
+}
+
+@media screen and (max-width: 480px) {
+    p, .social {
+        padding: .5em 2em;
+    }
+	li.data {
+		display: none;
+	}
+	.navigation li {
+		margin-right: 1em;	
+	}
+	.navigation {
+		font-size: 14px;
+		padding: 1% 1%;
+	}
+	.content h2, .civics h2, .find_me h2 {
+		margin-top: 20px;
+	}	
+}
+@media screen and (max-width: 570px) {
+	h1.civics {
+		display: none;
+	}
+}
+
+@media print {
+	.find_me {
+		display: none;
+    }
+	#page_navigation {
+		display: none;
+	}	
+}
