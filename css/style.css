@@ -7,14 +7,14 @@ body {
 }
 p {
 	line-height: 1.5em;
-    padding: .5em 18em;
+    padding: .5em 10em;
     text-align: left;
 	font-family: 'Open Sans', sans-serif;
 }
 h1
 {
 	margin: 0;
-    font-weight: 600; 
+    font-weight: 800; 
 }
 h2 {
 	display: block;
@@ -53,19 +53,21 @@ h2 {
 	color:#bebec8;
 	opacity: 1;
 }
-.landing_page {
-    
+.landing_page, .backdrop {
+        
+    background-image: url("../images/wet_sand_medium.jpg");
+    background-repeat: no-repeat;
     border-style:solid;
     border-width:1px;
     border-color: #736e82;
 
 }
 .landing_page h1 {
+    font-size: 3em;
+    font-weight: 600;
 	padding: 12.5% 20%;
-	text-shadow: 0 1px 1px #331a80;
-	font-size: 2.25em;
-	font-weight: 500;
-	color: #370faf;
+	text-shadow: 1px 1px 5px #ebebf5;
+	color: #251f3b;
 	background-color: #ebebf5
     
     box-shadow: .25px .25px .25px #736e82;
@@ -366,8 +368,10 @@ ul.socialicons li a.blog {
     }
 
 	.landing_page h1 {
-		font-size: 1.5em;
+		font-size: 3em;
+        line-height: 1em;
 		padding: 18% 15%;
+        color: #251f3b;
 	}
 	h1 {
 		line-height: 26px;
@@ -424,4 +428,50 @@ ul.socialicons li a.blog {
 	#page_navigation {
 		display: none;
 	}	
+
+
+
+
+
+}
+
+.clipped {
+    
+}
+
+
+
+
+
+
+
+
+
+.lededescription {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #251f3b;
+    text-shadow: 1px 1px 5px #ebebf5;
+
+}
+
+
+
+
+
+
+
+.navli {
+    color: #251f3b;
+	text-shadow: 1px 1px 5px #ebebf5;
+
+}
+
+
+
+.nav {
+    color: #251f3b;
+	text-shadow: 1px 1px 5px #ebebf5;
+
+
 }

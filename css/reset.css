@@ -74,6 +74,11 @@ html {
  */
 
 body {
+    
+    color: #251f3b;
+	text-shadow: 1px 1px 5px #ebebf5;
+
+
     margin: 0;
 }
 
